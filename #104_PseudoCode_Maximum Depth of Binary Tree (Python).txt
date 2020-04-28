@@ -1,0 +1,12 @@
+PC:  return max(self.left,self.right)+1
+
+so recursion cal how many times it goes left and right 
+
+TIme : O(n) 'cos traverse through every node of tree, no other way
+
+Space: O(n) cos worse case call stack all in self.right, thus one direction
+
+BT: average (logn)
+
+
+ 
